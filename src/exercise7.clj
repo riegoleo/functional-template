@@ -3,7 +3,7 @@
 (defn increment
   "Increments a given input by 1."
   [x]
-  (throw (Exception. "Not implemented."))
+  (+ x 1)
 )
 
 

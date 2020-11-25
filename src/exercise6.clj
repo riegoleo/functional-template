@@ -3,8 +3,10 @@
 (defn faverage
   "Calculates the average of a given sequence."
   [x]
-  (throw (Exception. "Not implemented."))
-)
+  (def sum (reduce + x))
+  (/ sum (count x)))
+
+
 
 
 
